@@ -1,0 +1,65 @@
+name: Download openly licensed thermodynamics PDFs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/download-thermodynamics-pdfs.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  download-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download official PDF files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p livres/thermodynamique
+
+          curl --fail --location --retry 4 --retry-delay 4 --connect-timeout 30 --max-time 600 \
+            "https://femto-physique.fr/thermodynamique/pdf/book-thermo.pdf" \
+            -o "livres/thermodynamique/Jimmy_Roussel_Thermodynamique_classique.pdf"
+
+          curl --fail --location --retry 4 --retry-delay 4 --connect-timeout 30 --max-time 600 \
+            "https://femto-physique.fr/mecanique_des_fluides/pdf/book_mecaflu.pdf" \
+            -o "livres/thermodynamique/Jimmy_Roussel_Mecanique_des_fluides.pdf"
+
+          curl --fail --location --retry 4 --retry-delay 4 --connect-timeout 30 --max-time 600 \
+            "https://femto-physique.fr/physique_statistique/pdf/book-phystat.pdf" \
+            -o "livres/thermodynamique/Jimmy_Roussel_Physique_statistique.pdf"
+
+          curl --fail --location --retry 4 --retry-delay 4 --connect-timeout 30 --max-time 900 \
+            "https://thermodynamique.fr/thermodynamique-livre-gratuit.pdf" \
+            -o "livres/thermodynamique/Olivier_Cleynen_Thermodynamique_de_l_ingenieur.pdf"
+
+          for pdf in livres/thermodynamique/*.pdf; do
+            if [ "$(head -c 5 "$pdf")" != "%PDF-" ]; then
+              echo "Invalid PDF download: $pdf" >&2
+              exit 1
+            fi
+            echo "Verified PDF signature: $pdf ($(du -h "$pdf" | cut -f1))"
+          done
+
+          sha256sum livres/thermodynamique/*.pdf > livres/thermodynamique/SHA256SUMS.txt
+
+      - name: Commit downloaded books
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add livres/thermodynamique/*.pdf livres/thermodynamique/SHA256SUMS.txt
+          if git diff --cached --quiet; then
+            echo "No PDF changes to commit."
+            exit 0
+          fi
+          git commit -m "Add openly licensed thermodynamics PDFs"
+          git push
