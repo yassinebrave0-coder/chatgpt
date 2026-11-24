@@ -51,7 +51,7 @@ C'est le manuel principal recommandé pour comprendre les notions fondamentales 
 - Licence indiquée dans le PDF : Creative Commons CC BY-NC 4.0.
 - Attribution : Jimmy Roussel, *Cours de mécanique des fluides*, Femto Physique, copyright 2025.
 
-**À lire pour le S1 :** partie I, « Statique des fluides », surtout le chapitre 1 « Pression dans un fluide » : pression, fluide au repos dans le champ de pesanteur et équilibre hydrostatique. Le reste du livre porte sur la dynamique des fluides et dépasse ce besoin ciblé de S1.
+**À lire pour le S1 :** partie I, « Statique des fluides », chapitre 1 « Pression dans un fluide » (p. 3–10) : pression, fluide au repos dans le champ de pesanteur, manomètre et expérience de Torricelli / baromètre à mercure (figure 1.6, p. 9). Le reste du livre porte sur la dynamique des fluides et dépasse ce besoin ciblé de S1.
 
 ## 3. Complément facultatif et avancé — Jimmy Roussel, physique statistique
 
@@ -91,11 +91,11 @@ Suivre l'ordre du cours de l'enseignant. Les numéros de pages ci-dessous sont l
 | 1 | Système, variables d'état, équilibre, transformations | Roussel, ch. 2 (p. 7–18), puis Cleynen, chapitres 1–2 si besoin d'exemples supplémentaires |
 | 2 | Statique des fluides, pression, hydrostatique, baromètre | Roussel, *Mécanique des fluides*, partie I, ch. 1 |
 | 3 | Outils mathématiques : différentielles, dérivées partielles, intégrales, fonctions d'état | Roussel, ch. 9 (p. 89–100) en complément des rappels mathématiques du cours ; Cleynen pour les applications |
-| 4 | Gaz parfait, équations d'état, loi de Dalton | Roussel, ch. 2 et les passages pertinents du ch. 4 ; Cleynen, chapitre 4 |
+| 4 | Gaz parfait, équations d'état, loi de Dalton | Roussel, ch. 2 (notamment la loi de Dalton, p. 17) ; Cleynen, chapitre 4 |
 | 5 | Théorie cinétique, pression microscopique, équipartition | Roussel, *Physique statistique*, ch. 3, surtout §3.3 ; lecture sélective seulement |
-| 6 | Gaz réels, diagramme d'Amagat, Van der Waals | Roussel, ch. 2 pour Amagat et ch. 9 pour l'exemple Van der Waals ; comparer les notations avec le polycopié du professeur |
+| 6 | Gaz réels, diagramme d'Amagat, Van der Waals | Roussel, ch. 2 (diagramme d'Amagat, fig. 2.7) et ch. 9, §9.3 (application du modèle de Van der Waals à Joule–Gay-Lussac) ; comparer les notations avec le polycopié du professeur |
 | 7 | Travail des forces pressantes et premier principe | Roussel, ch. 3 ; Cleynen, chapitres 1–2 |
-| 8 | Enthalpie, capacités thermiques, Mayer, Joule–Gay-Lussac, lois de Laplace | Roussel, ch. 3–4 et applications du ch. 9 ; Cleynen pour les exercices |
+| 8 | Enthalpie, capacités thermiques, Mayer, Joule–Gay-Lussac, lois de Laplace | Roussel, ch. 3 (détente de Joule–Gay-Lussac du gaz parfait), ch. 4 (capacités thermiques et lois de Laplace) et ch. 9, §9.3 (gaz réel) ; Cleynen pour les exercices |
 | 9 | Deuxième principe, entropie échangée/créée, irréversibilité, Clausius | Roussel, ch. 5 ; Cleynen, chapitres 7–8 |
 | 10 | Carnot, moteurs, réfrigérateur, pompe à chaleur | Roussel, ch. 7 ; Cleynen, chapitre 6 sur les cycles et les machines |
 | 11 | Corps pur, changements de phase, isothermes d'Andrews | Roussel, ch. 6 ; Cleynen, chapitre 5 |
