@@ -1,81 +1,125 @@
 # Bibliothèque — Thermodynamique S1 SPC A (FSAC)
 
-## Sélection retenue
+Cette sélection contient uniquement des PDF qui ont été téléchargés avec succès dans ce dépôt depuis leurs sources officielles et dont la licence autorise la redistribution. Les copies locales sont fournies pour faciliter l'accès ; les auteurs et leurs sites d'origine restent les références.
 
-La sélection privilégie les PDF qui sont effectivement proposés au téléchargement par leurs auteurs ou éditeurs, avec une licence de redistribution clairement indiquée. Les thèmes sont choisis en comparant les sommaires et le contenu des ouvrages au polycopié S1 transmis.
+## Téléchargements directs depuis ce dépôt
 
-### 1. Jimmy Roussel — Cours de thermodynamique classique
+| Ressource | Taille du PDF | Utilisation conseillée |
+|---|---:|---|
+| [Jimmy Roussel — Thermodynamique classique](./Jimmy_Roussel_Thermodynamique_classique.pdf) | 2,2 MB | Manuel principal |
+| [Olivier Cleynen — Thermodynamique de l'ingénieur](./Olivier_Cleynen_Thermodynamique_de_l_ingenieur.pdf) | 31,5 MB | Manuel complémentaire, exemples et exercices |
+| [Jimmy Roussel — Mécanique des fluides](./Jimmy_Roussel_Mecanique_des_fluides.pdf) | 8,3 MB | Statique des fluides |
+| [Jimmy Roussel — Introduction à la physique statistique](./Jimmy_Roussel_Physique_statistique.pdf) | 2,1 MB | Théorie cinétique des gaz, en complément avancé |
 
-- **Rôle :** manuel principal pour les fondements, les transformations, les premier et deuxième principes, les phases, les machines thermiques et les conséquences mathématiques.
-- **Correspondances utiles :** approche thermodynamique, diagramme d’Amagat, équation de van der Waals, détente de Joule-Gay-Lussac, entropie, machines thermiques, coefficients calorimétriques et relations de Maxwell.
-- **Source officielle :** https://femto-physique.fr/thermodynamique/
-- **PDF officiel :** https://femto-physique.fr/thermodynamique/pdf/book-thermo.pdf
-- **Licence indiquée dans le PDF :** CC BY-NC 4.0.
-- **Attribution :** Jimmy Roussel, *Cours de thermodynamique classique*, Femto Physique, copyright 2024.
+Les quatre fichiers sont présents dans ce dossier. Les tailles sont indicatives. Pour vérifier leur intégrité, voir [SHA256SUMS.txt](./SHA256SUMS.txt).
 
-### 2. Jimmy Roussel — Cours de mécanique des fluides
+## 1. Manuel principal — Jimmy Roussel
 
-- **Rôle :** complément ciblé pour la statique des fluides du polycopié.
-- **À lire en priorité :** partie I, « Statique des fluides », chapitre 1 « Pression dans un fluide » (pression, équilibre dans le champ de pesanteur, manomètre et expérience de Torricelli).
-- **Source officielle :** https://femto-physique.fr/mecanique_des_fluides/
-- **PDF officiel :** https://femto-physique.fr/mecanique_des_fluides/pdf/book_mecaflu.pdf
-- **Licence indiquée dans le PDF :** CC BY-NC 4.0.
-- **Attribution :** Jimmy Roussel, *Cours de mécanique des fluides*, Femto Physique, copyright 2025.
+**Cours de thermodynamique classique**, 116 pages, édition 2024.
 
-### 3. Jimmy Roussel — Introduction à la physique statistique
+- Source officielle : https://femto-physique.fr/thermodynamique/
+- PDF original : https://femto-physique.fr/thermodynamique/pdf/book-thermo.pdf
+- Copie dans le dépôt : [Télécharger le PDF](./Jimmy_Roussel_Thermodynamique_classique.pdf)
+- Licence indiquée dans le PDF : Creative Commons CC BY-NC 4.0.
+- Attribution : Jimmy Roussel, *Cours de thermodynamique classique*, Femto Physique, copyright 2024.
 
-- **Rôle :** complément facultatif pour comprendre la théorie cinétique des gaz et l'interprétation microscopique de la pression.
-- **À lire en priorité :** chapitre 3, « Le gaz parfait », surtout la section 3.3 « Théorie cinétique des gaz ». Le livre complet est de niveau fin de Licence / début Master : ne pas le traiter comme le manuel principal de S1.
-- **Source officielle :** https://femto-physique.fr/physique_statistique/
-- **PDF officiel :** https://femto-physique.fr/physique_statistique/pdf/book-phystat.pdf
-- **Licence indiquée dans le PDF :** CC BY-NC 4.0.
-- **Attribution :** Jimmy Roussel, *Introduction à la physique statistique*, Femto Physique, copyright 2025.
+C'est le manuel principal recommandé pour comprendre les notions fondamentales et suivre une progression structurée. Son sommaire comprend : approche thermodynamique, premier principe, capacités thermiques, entropie, phases du corps pur, machines thermiques, transferts thermiques et conséquences mathématiques des principes.
 
-### 4. Olivier Cleynen — Thermodynamique de l’ingénieur
+**Correspondances particulièrement utiles avec le polycopié FSAC :**
+- Systèmes et équations d'état : chapitre 2, p. 7–18.
+- Premier principe, travail et transformations : chapitre 3, p. 19–28.
+- Capacités thermiques : chapitre 4, p. 29–38.
+- Entropie et bilans : chapitre 5, p. 39–48.
+- Corps pur et changements de phase : chapitre 6, p. 49–64.
+- Machines thermiques et machine frigorifique : chapitre 7, p. 65–74.
+- Conduction/diffusion, convection et rayonnement : chapitre 8, p. 75–88.
+- Formulation différentielle, coefficients calorimétriques et relations de Maxwell : chapitre 9, p. 89–100.
 
-- **Rôle :** deuxième manuel pour les exemples détaillés, les applications, les machines thermiques et l'entraînement.
-- **Contenu annoncé par l'auteur :** 340 pages, 59 exemples résolus et 96 exercices corrigés.
-- **Source officielle :** https://thermodynamique.fr/
-- **PDF officiel :** https://thermodynamique.fr/thermodynamique-livre-gratuit.pdf
-- **Licence indiquée par l'auteur :** Creative Commons BY-SA 4.0.
-- **Attribution :** Olivier Cleynen, *Thermodynamique de l’ingénieur*, 3e édition, 2021, Thermodynamique.fr. Toute adaptation doit respecter le partage dans les mêmes conditions.
+**Limites à connaître :**
+- Le diagramme d'Amagat apparaît dans les illustrations du chapitre 2.
+- Le modèle de Van der Waals et la détente de Joule–Gay-Lussac sont abordés dans les applications mathématiques du chapitre 9 ; ce n'est pas un long chapitre autonome sur tous les gaz réels.
+- Le chapitre de mécanique hydrostatique détaillé est à compléter avec le livre de mécanique des fluides ci-dessous.
+- Le livre ne remplace pas le chapitre de théorie cinétique de la physique statistique lorsque l'on veut retrouver les démonstrations microscopiques.
 
-## Plan de lecture conseillé
+## 2. Complément — Jimmy Roussel, mécanique des fluides
 
-L'ordre ci-dessous suit les thèmes du polycopié S1. Les numéros de chapitres renvoient aux ouvrages listés ci-dessus, pas au polycopié du professeur.
+**Cours de mécanique des fluides**, 90 pages, édition 2025.
 
-| Étape | Thèmes du polycopié FSAC | Ressource prioritaire |
+- Source officielle : https://femto-physique.fr/mecanique_des_fluides/
+- PDF original : https://femto-physique.fr/mecanique_des_fluides/pdf/book_mecaflu.pdf
+- Copie dans le dépôt : [Télécharger le PDF](./Jimmy_Roussel_Mecanique_des_fluides.pdf)
+- Licence indiquée dans le PDF : Creative Commons CC BY-NC 4.0.
+- Attribution : Jimmy Roussel, *Cours de mécanique des fluides*, Femto Physique, copyright 2025.
+
+**À lire pour le S1 :** partie I, « Statique des fluides », surtout le chapitre 1 « Pression dans un fluide » : pression, fluide au repos dans le champ de pesanteur et équilibre hydrostatique. Le reste du livre porte sur la dynamique des fluides et dépasse ce besoin ciblé de S1.
+
+## 3. Complément facultatif et avancé — Jimmy Roussel, physique statistique
+
+**Introduction à la physique statistique**, 102 pages, édition 2025.
+
+- Source officielle : https://femto-physique.fr/physique_statistique/
+- PDF original : https://femto-physique.fr/physique_statistique/pdf/book-phystat.pdf
+- Copie dans le dépôt : [Télécharger le PDF](./Jimmy_Roussel_Physique_statistique.pdf)
+- Licence indiquée dans le PDF : Creative Commons CC BY-NC 4.0.
+- Attribution : Jimmy Roussel, *Introduction à la physique statistique*, Femto Physique, copyright 2025.
+
+**À lire en priorité :** chapitre 3 « Le gaz parfait », en particulier la section 3.3 « Théorie cinétique des gaz » (p. 36 et suivantes), qui traite notamment de l'interprétation cinétique de la pression et de la distribution des vitesses.
+
+Le niveau annoncé par l'auteur est fin de Licence / début Master. Ce n'est donc pas le manuel à lire intégralement pour un S1 : limiter la lecture aux éléments utiles à la théorie cinétique des gaz.
+
+## 4. Manuel complémentaire — Olivier Cleynen
+
+**Thermodynamique de l'ingénieur**, 340 pages, troisième édition (2021), contenu mis à jour le 7 juin 2026 selon le site de l'auteur.
+
+- Site officiel : https://thermodynamique.fr/
+- PDF gratuit officiel : https://thermodynamique.fr/thermodynamique-livre-gratuit.pdf
+- Copie dans le dépôt : [Télécharger le PDF](./Olivier_Cleynen_Thermodynamique_de_l_ingenieur.pdf)
+- Licence : Creative Commons BY-SA 4.0, selon l'auteur.
+- Contenu annoncé par l'auteur : 59 exemples résolus et 96 exercices corrigés.
+- Attribution : Olivier Cleynen, *Thermodynamique de l'ingénieur*, 3e édition, 2021, Thermodynamique.fr.
+
+Ce livre complète Roussel par une orientation ingénieur, des applications concrètes et beaucoup d'exercices résolus. Ses sections utiles comprennent les systèmes fermés, le gaz parfait, les liquides et vapeurs, les cycles thermodynamiques, les machines, le deuxième principe et l'entropie.
+
+Il ne faut pas le considérer comme une copie du polycopié FSAC : certains détails propres à votre cours, notamment les coefficients thermoélastiques et le diagramme d'Amagat, doivent être étudiés dans le manuel Roussel et le polycopié du professeur.
+
+## 5. Plan de lecture adapté au polycopié FSAC
+
+Suivre l'ordre du cours de l'enseignant. Les numéros de pages ci-dessous sont les pages imprimées dans les livres quand elles sont indiquées ; ils ne sont pas les pages du polycopié FSAC.
+
+| Étape | Thèmes dans le polycopié FSAC | Lecture recommandée |
 |---|---|---|
-| 1 | Systèmes, variables d'état, équilibre, transformations | Roussel — Thermodynamique classique, ch. 2 et 3 |
-| 2 | Statique des fluides, pression hydrostatique, manomètre, Torricelli | Roussel — Mécanique des fluides, partie I, ch. 1 |
-| 3 | Travail, chaleur, énergie interne, enthalpie, premier principe | Roussel — Thermodynamique classique, ch. 3 |
-| 4 | Capacités thermiques, Mayer, Joule-Gay-Lussac | Roussel — Thermodynamique classique, ch. 4 et passages pertinents du ch. 3 |
-| 5 | Gaz parfaits, théorie cinétique et pression cinétique | Roussel — Thermodynamique classique, ch. 2 ; physique statistique, ch. 3.3 en complément |
-| 6 | Gaz réels, van der Waals, diagramme d'Amagat | Roussel — Thermodynamique classique, ch. 2 et passages sur les fluides réels |
-| 7 | Entropie, entropie échangée/créée, irréversibilité, Clausius | Roussel — Thermodynamique classique, ch. 5 |
-| 8 | Carnot, moteur, réfrigérateur, pompe à chaleur | Roussel — Thermodynamique classique, ch. 7 ; Cleynen, cycles et second principe |
-| 9 | Changements de phase, corps pur, transferts thermiques | Roussel — Thermodynamique classique, ch. 6 et 8 |
-| 10 | Différentielles, coefficients calorimétriques et relations de Maxwell | Roussel — Thermodynamique classique, ch. 9 ; Cleynen en complément d'applications |
+| 1 | Système, variables d'état, équilibre, transformations | Roussel, ch. 2 (p. 7–18), puis Cleynen, chapitres 1–2 si besoin d'exemples supplémentaires |
+| 2 | Statique des fluides, pression, hydrostatique, baromètre | Roussel, *Mécanique des fluides*, partie I, ch. 1 |
+| 3 | Outils mathématiques : différentielles, dérivées partielles, intégrales, fonctions d'état | Roussel, ch. 9 (p. 89–100) en complément des rappels mathématiques du cours ; Cleynen pour les applications |
+| 4 | Gaz parfait, équations d'état, loi de Dalton | Roussel, ch. 2 et les passages pertinents du ch. 4 ; Cleynen, chapitre 4 |
+| 5 | Théorie cinétique, pression microscopique, équipartition | Roussel, *Physique statistique*, ch. 3, surtout §3.3 ; lecture sélective seulement |
+| 6 | Gaz réels, diagramme d'Amagat, Van der Waals | Roussel, ch. 2 pour Amagat et ch. 9 pour l'exemple Van der Waals ; comparer les notations avec le polycopié du professeur |
+| 7 | Travail des forces pressantes et premier principe | Roussel, ch. 3 ; Cleynen, chapitres 1–2 |
+| 8 | Enthalpie, capacités thermiques, Mayer, Joule–Gay-Lussac, lois de Laplace | Roussel, ch. 3–4 et applications du ch. 9 ; Cleynen pour les exercices |
+| 9 | Deuxième principe, entropie échangée/créée, irréversibilité, Clausius | Roussel, ch. 5 ; Cleynen, chapitres 7–8 |
+| 10 | Carnot, moteurs, réfrigérateur, pompe à chaleur | Roussel, ch. 7 ; Cleynen, chapitre 6 sur les cycles et les machines |
+| 11 | Corps pur, changements de phase, isothermes d'Andrews | Roussel, ch. 6 ; Cleynen, chapitre 5 |
+| 12 | Transferts thermiques | Roussel, ch. 8 |
 
-## Comment travailler
+## 6. Méthode de travail
 
-1. Lire d'abord la section correspondante de Roussel.
-2. Revenir au polycopié du professeur pour vérifier le vocabulaire et les notations exigées en S1.
-3. Utiliser Cleynen pour refaire les calculs et travailler les exemples et exercices corrigés.
-4. Consulter les deux ouvrages complémentaires de Roussel seulement pour les parties ciblées indiquées plus haut.
+1. Lire le passage du livre indiqué pour comprendre l'idée et les hypothèses.
+2. Reprendre ensuite le passage correspondant du polycopié de l'enseignant afin de conserver ses notations et conventions de signe.
+3. Pour les exercices, commencer par ceux du cours, puis utiliser les exemples et exercices corrigés de Cleynen.
+4. Garder la physique statistique comme un complément sélectif, surtout pour la théorie cinétique.
+5. Ne pas lire intégralement les ouvrages complémentaires : suivre uniquement les chapitres indiqués.
 
-## Limites connues
+## 7. Ressources écartées de la copie locale
 
-- Aucun de ces livres n'est une copie exacte du programme FSAC : l'ordre, les notations et le niveau de détail diffèrent.
-- La physique statistique de Roussel est avancée ; seul le chapitre sur le gaz parfait et la théorie cinétique est recommandé en complément.
-- Les livres couvrent des contenus plus larges que S1. Il n'est pas nécessaire de tout lire.
-- Le dépôt est un index de ressources et des copies de ressources ouvertes ; les auteurs et les sources originales restent les références.
+Des références comme Patrick Puzo, Gérald Philippe, Nicolas Pavloff, Doumenc et certains cours de Polytechnique peuvent être utiles, mais elles ne sont pas incluses ici en tant que PDF téléchargeables hébergés dans le dépôt : soit le téléchargement direct n'a pas pu être confirmé, soit les conditions de redistribution n'étaient pas suffisamment vérifiées. Les liens de source peuvent être recherchés séparément, mais aucun fichier incertain n'est copié ici.
 
-## Licences et réutilisation
+## 8. Licences et réutilisation
 
-Les fichiers de Jimmy Roussel sont sous CC BY-NC 4.0 : attribution, lien vers la licence et usage non commercial.
-Le livre d'Olivier Cleynen est sous CC BY-SA 4.0 : attribution, indication des modifications éventuelles et partage des adaptations sous la même licence.
+- Jimmy Roussel : CC BY-NC 4.0. Attribution obligatoire et usage non commercial.
+- Olivier Cleynen : CC BY-SA 4.0. Attribution obligatoire ; toute adaptation distribuée doit être partagée sous la même licence.
 
 Licences :
 - https://creativecommons.org/licenses/by-nc/4.0/
 - https://creativecommons.org/licenses/by-sa/4.0/
+
+Les PDF sont conservés sans modification et avec le nom de leurs auteurs. Pour citer un manuel dans un travail universitaire, consulter également la page officielle de l'auteur.
